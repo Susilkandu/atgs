@@ -16,7 +16,7 @@ export default function HomePage() {
     <div className="HomePageCnt sm-w-[360px] w-[100%]">
       <div className="cs-engineering flex-col justify-evenly w-[inherit] text-[#FFFFFF] ">
         {/* first block */}
-        <div className="w-[inherit] h-[236px] md:h-[440px] cs-inner relative bg-[url(./csEng.jpeg)] bg-center bg-cover">
+        <div className="w-[inherit] h-[236px] md:h-[440px] cs-inner relative bg-[url(csEng.jpeg)] bg-center bg-cover">
           <div className="absolute w-[inherit] h-[inherit]" style={
             {
               background: "linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%)",
